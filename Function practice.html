@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+   <script>
+       function add7(){
+      var number = prompt("Pick a number");
+      var newnumber = 7 + parseInt(number);
+      console.log(newnumber);
+      return (newnumber);
+      
+       }
+       
+       add7(); 
+
+       function multi() {
+         var num1 = prompt("Choose 2 numbers!");
+         var num2 = prompt("Choose another number!");
+         let resultMultiply;
+
+         resultMultiply = (num1 * num2);
+         console.log(resultMultiply);
+                 
+       }
+        multi();
+
+        function capitalize(){
+
+            const sent = prompt("Enter a sentence!");
+            const sentLow = sent.toLowerCase();
+            const sentFirstLet = sentLow.charAt(0);
+            const sentFirstCap = sentFirstLet.toUpperCase();
+
+            console.log(sentFirstCap + sentLow.slice(1));
+            
+            return sentFirstCap + sentLow.slice(1);
+
+       }
+
+       capitalize();
+
+           </script>
+
+           
+
+</body> 
+
+</html> 
